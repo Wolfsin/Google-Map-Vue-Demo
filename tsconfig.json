@@ -1,0 +1,18 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "types": ["node", "google.maps"]
+  },
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ],
+  "extends": ["@vue/tsconfig/tsconfig.json", "@tsconfig/node18/tsconfig.json"]
+}
